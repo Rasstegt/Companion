@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: calc(0.5em+1vw);
+}
+
+table {
+    border-collapse: collapse;
+    width: fit-content;
+    margin: auto;
+  }
+
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+
+  h1{
+      text-align: center;
+  }
+
+.container {
+    margin: auto;
+    display: block;
+    border: 3px solid black;
+    width: fit-content;
+    padding: calc(00.5em);
+    background-color: bisque;
+  }
+
+  select, label{
+    width: fit-content;
+    display: block;
+    margin: auto;
+    font-size: calc(1vw);
+  }
+  select{
+    margin-bottom: 3%;
+  }
