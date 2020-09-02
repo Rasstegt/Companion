@@ -1,0 +1,28 @@
+[{
+	"channel": "Andy Sterkowitz",
+	"title": "What is Angular? (Explained for Beginners)",
+	"url": "https://www.youtube.com/embed/VAkio68d51A",
+	"thumbnailUrl": "https://i.ytimg.com/vi/VAkio68d51A/maxresdefault.jpg",
+	"avatarUrl": "https://yt3.ggpht.com/a/AATXAJzfOPycc8E41LnLMjztVFhon7otkWPmDF6HeaqA=s40-c-k-c0xffffffff-no-rj-mo"
+},
+{
+	"channel" : "Coderevolution",
+	"title": "Angular Tutorial - 1 – Introduction",
+	"url": "https://www.youtube.com/embed/0eWrpsCLMJQ",
+	"thumbnailUrl": "https://i.ytimg.com/vi/0eWrpsCLMJQ/maxresdefault.jpg",
+	"avatarUrl": "https://yt3.ggpht.com/a/AATXAJx1mDLn8-L1yG8jIO2yGHvJzqnMZ03dsc3PbNqe=s40-c-k-c0xffffffff-no-rj-mo"
+},
+{
+	"channel": "DesignCourse",
+	"title": "Angular 4 Material Tutorial",
+	"url": "https://www.youtube.com/embed/UnKsoCeTdEI",
+	"thumbnailUrl": "https://i.ytimg.com/vi/UnKsoCeTdEI/maxresdefault.jpg",
+	"avatarUrl": "https://yt3.ggpht.com/a/AATXAJyC278MnqvWj6nYJAUT6E3tzxrZ03-CRsIbnDQIwA=s40-c-k-c0xffffffff-no-rj-mo"
+},{
+	"channel": "Traversy Media",
+	"title": "Angular Crash Course",
+	"url": "https://www.youtube.com/embed/Fdf5aTYRW0E",
+	"thumbnailUrl": "https://i.ytimg.com/vi/Fdf5aTYRW0E/maxresdefault.jpg",
+	"avatarUrl": "https://yt3.ggpht.com/a/AATXAJw6qBlNzbAweKz7UlC44hYLoEtdoXGmzN8IJno3mg=s40-c-k-c0xffffffff-no-rj-mo"
+}
+]

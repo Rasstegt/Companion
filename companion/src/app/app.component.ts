@@ -8,28 +8,36 @@ import { HttpClient } from '@angular/common/http';
 })
 
 export class AppComponent {
-  title = 'final-exam';
+  title = 'Companion';
 
-  employeesOriginal;
-  employees;
-  selectedDepartment = "IT";
+  holidays;
+  holidaysOrig;
+  selectedHoliday;
 
   constructor(http: HttpClient) {
 
-    const URL = "http://ejd.songho.ca/employees.json";
+    const URL = "assets/pulledData.json";
     http.get(URL).subscribe(data=> {
-      this.employees = data;
-      this.employeesOriginal = data;
+      this.holidays = data;
+      this.holidaysOrig = data;
       console.log(data);
     }, error=> {
       console.log(error);
-      this.employees = {};
+      this.holidays = {};
     });
     
   }
 
-  selectDepartment(){
-    this.employees = this.employeesOriginal.filter(emp => emp.department == this.selectedDepartment);
+  // toQuery(){
+  //   this.holidays = this.holidaysOrig.filter(emp => emp.department == this.holidaysOrig);
+  // }
+
+  watchVideo(link){
+    window.open(link, "_blank");
+  }
+
+  getAvatar(link){
+      return link;
   }
 
 }

@@ -1,31 +1,22 @@
-<div class='container'>
-  <h1>Employee List</h1>
+<div class="container">
+  <mat-card *ngFor="let ticket of holidays">
+    
+    <img mat-card-image [src]="ticket.thumbnailUrl">
+    
+    <mat-card-header>
+      
+      <div mat-card-avatar [ngStyle]="{'background-image': 'url(' + getAvatar(ticket.avatarUrl) + ')'}">
+      </div>
+      
+      <mat-card-title>{{ticket.title}}</mat-card-title>
+      
+      <mat-card-subtitle>{{ticket.channel}}</mat-card-subtitle>
+    
+    </mat-card-header>
+    
+    <mat-card-actions>
+      <button mat-button class="watchBtn" (click)="watchVideo(video.url)">WATCH</button>
+    </mat-card-actions>
   
-  <label for="dept">Choose Department:</label>
-    <select id="dept" [(ngModel)]="selectedDepartment" (ngModelChange)="selectDepartment()">
-      <option value="IT">IT</option>
-      <option value="Finance">Finance</option>
-      <option value="HR">HR</option>
-      <option value="Sales">Sales</option>
-      <option value="Marketing">Marketing</option>
-      <option value="Support">Support</option>
-    </select>
-
-
-    <table>
-      <tr>
-        <th>First Name</th>
-        <th>Last Name</th>
-        <th>Department</th>
-        <th>Salary</th>
-      </tr>
-    <tr *ngFor="let row of employees">
-      <td>{{row.firstName}}</td>
-      <td>{{row.lastName}}</td>
-      <td>{{row.department}}</td>
-      <td>{{row.salary}}</td>
-    </tr>
-    </table>
-
-
+  </mat-card>
 </div>
